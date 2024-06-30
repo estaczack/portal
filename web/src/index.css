@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#ebook {
+  background: linear-gradient(0.25turn,#ff0000,#ff007f, #ff007f, #FF66CC, #d58fbe, #d58fbe, #FF66CC, #ff007f,#ff007f, #ff0000);
+}
+
+hr {
+  padding: 0px;
+  margin: 0.5rem;
+}
+
+p.title {
+  font-family: "Dancing Script";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+p.subtitle {
+  font-weight: bold;
+}
+
+p.subtitle span {
+  color: yellow;
+}
+
+div.box {
+  background-color: white !important;
+}
+
+div.fundo-preto {
+  background-color: black !important;
+}
+
+div.control {
+  padding: 0.3rem !important;
+}
+
+section.banner-login {
+  background-image: url("/learning.jpg");
+  background-size: cover;
+}
+
+div.banner-login {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px 2px rgba(128, 0, 0, 1), -10px 5px 21px rgba(255, 255, 0, 1);
+}
+
+div.texto-apertado {
+  text-align: justify;
+  line-height: 1.45 !important;
+}
+
+div.fundo-numeros {
+  background-image: url("/curso_tecnologia.jpg");
+  background-size: cover;
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+}
+
+div.fundo-infobox {
+  background-color: aliceblue;
+  opacity: 0.85;
+  border: 3px solid red;
+}
+
+div.destaque-sombra-1 {
+  font-family: Roboto;
+  font-size: 1.05rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: -10px 5px 21px rgb(204, 204, 204);
+}
+
+div.destaque-sombra-2 {
+  font-family: Roboto;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: -10px 5px 21px rgb(204, 204, 204);
+}
+
+h1.formato-preco {
+  font-size: 2.6rem;
+}
+
+sup.formato-preco {
+  font-size: 1.2rem !important;
+}
+
+.top-bottom-envelope {
+  margin: 3rem 0rem 3rem 0rem !important;
+}
+
+.box-categorias {
+  min-height: 18rem;
+  text-align: center;
+}
+
+.box-categorias .img-medalha {
+  float: left;
+  width: 3rem;
+}
+
+.box-autodidata {
+  border: 4px solid #a56039 !important;
+  color: #a56039;
+}
+
+.box-mentoria {
+  border: 4px solid #98aaac !important;
+  color: #98aaac;
+}
+
+.box-premium {
+  border: 4px solid #dfc54e !important;
+  color: #dfc54e;
+}
+
+.conteudo-em-preto {
+  color: black !important;
+}
+
+.conteudo-em-vermelho {
+  color: red !important;
+}
+
+.conteudo-em-amarelo {
+  color: yellow !important;
+}
+
+.justified-text {
+  text-align: justify;
+}
+
+div.box span.titulo {
+  font-weight: bolder;
+  color: black;
+  text-decoration: underline;
+}
+
+div.video-envelope {
+  max-width: 7rem;
+  display: inline-block;
+  padding: 1rem 1rem 0rem 0rem;
+  text-align: center;
+}
+
+div.lista_videos_0 {
+  background-color: #eee;
+  margin-bottom: 1.8rem;
+}
+
+div.lista_videos_1 {
+  background-color: #fff;
+  margin-bottom: 1.8rem;
+}
+
+.textos-titulo-primeiro {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.textos-titulo {
+  font-size: 1.14rem;
+  font-weight: bold;
+}
+
+.textos-paragrafo {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+.fundo-cinza-claro {
+  background-color: #eee !important;
+}

@@ -1,0 +1,12 @@
+EHLO bsscursos.tech
+AUTH LOGIN
+ZWRkZWFsbWVpZGEK
+SDNybTRubjIwMjRACg==
+MAIL FROM:<eddealmeida@bsscursos.tech>
+RCPT TO:<edvaldoajunior@gmail.com>
+DATA
+Subject: Teste do Postfix
+
+Este é um email de teste.
+.
+QUIT

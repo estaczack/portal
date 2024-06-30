@@ -1,0 +1,52 @@
+{
+  "name": "api2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "authors": [
+    {
+      "name": "Ed de Almeida",
+      "email": "edvaldoajunior@gmail.com",
+      "url": "https://bsscursos.tech/eddealmeida"
+    },
+    {
+      "name": "Marcos Gabriel",
+      "email": "marcosgabriel.smc@gmail.com",
+      "url": "https://bsscursos.tech/marcosgabriel"
+    }
+  ],
+  "scripts": {
+    "test": "jest",
+    "lint-fix": "./node_modules/eslint/bin/eslint.js . --fix",
+    "dev": "./node_modules/nodemon/bin/nodemon.js index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@mokuteki/jwt": "^1.0.2",
+    "apollo-server": "^3.13.0",
+    "apollo-server-express": "^3.13.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "graphql": "^16.8.1",
+    "lodash-es": "^4.17.21",
+    "mongodb": "^6.5.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.0.2",
+    "@eslint/js": "^9.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "globals": "^15.0.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0"
+  }
+}
